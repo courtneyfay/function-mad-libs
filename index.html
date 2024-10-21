@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>Function Mad Libs</title>
+    </head>
+    <body>
+        <!-- Add text labels and inputs for each variable in your mad libs text-->
+        <div>
+            <label for="typeOfBird">Type Of Bird:</label>
+            <input type="text" id="typeOfBird" name="typeOfBird">
+        </div>
+        <div>
+            <label for="roommateName">Roommate Name:</label>
+            <input type="text" id="roommateName" name="roommateName">
+        </div>
+        <div>
+            <label for="noun">Noun:</label>
+            <input type="text" id="noun" name="noun">
+        </div>
+        <div>
+            <label for="liquid">Liquid:</label>
+            <input type="text" id="liquid" name="liquid">
+        </div>
+        <div>
+            <label for="bodyPart">Body Part:</label>
+            <input type="text" id="bodyPart" name="bodyPart">
+        </div>
+
+        <!-- Add a button that calls generateMadLibs function -->
+        <button onclick="generateMadLibs()">Generate Mad Libs</button>
+        
+        <!-- Add a p tag with an id of mad-libs that shows the generated mad libs story when users click the button -->
+        <p id="mad-libs"></p>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
